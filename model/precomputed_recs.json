@@ -1,0 +1,776 @@
+{
+  "1": {
+    "seeds": [
+      "Godfather, The (1972)",
+      "Gate Keepers",
+      "Boot, Das (1981)"
+    ],
+    "recs": [
+      {
+        "title": "Gate Keepers",
+        "source": "Anime",
+        "genre": "['Action', 'Comedy', 'Fantasy', 'Sci-Fi']",
+        "score": 1.0
+      },
+      {
+        "title": "Hajimari no Boukensha-tachi: Legend of Crystania",
+        "source": "Anime",
+        "genre": "['Action', 'Adventure', 'Fantasy', 'Supernatural']",
+        "score": 0.7062
+      },
+      {
+        "title": "Godfather, The (1972)",
+        "source": "Movie",
+        "genre": "Action, Crime, Drama",
+        "score": 0.7
+      },
+      {
+        "title": "Boot, Das (1981)",
+        "source": "Movie",
+        "genre": "Action, Drama, War",
+        "score": 0.6987
+      },
+      {
+        "title": "Kurau Phantom Memory",
+        "source": "Anime",
+        "genre": "['Action', 'Drama', 'Sci-Fi']",
+        "score": 0.6975
+      },
+      {
+        "title": "Hanayamata",
+        "source": "Anime",
+        "genre": "['Comedy', 'Slice of Life']",
+        "score": 0.6948
+      },
+      {
+        "title": "Ultra Maniac",
+        "source": "Anime",
+        "genre": "['Comedy', 'Romance']",
+        "score": 0.6899
+      },
+      {
+        "title": "Hunter x Hunter (2011)",
+        "source": "Anime",
+        "genre": "['Action', 'Adventure', 'Fantasy']",
+        "score": 0.6874
+      },
+      {
+        "title": "Kimi no Na wa.",
+        "source": "Anime",
+        "genre": "['Award Winning', 'Drama', 'Supernatural']",
+        "score": 0.6861
+      },
+      {
+        "title": "Casablanca (1942)",
+        "source": "Movie",
+        "genre": "Drama, Romance, War",
+        "score": 0.6858
+      },
+      {
+        "title": "D.Gray-man Hallow",
+        "source": "Anime",
+        "genre": "['Action', 'Adventure', 'Fantasy']",
+        "score": 0.6856
+      },
+      {
+        "title": "Aoharu x Kikanjuu",
+        "source": "Anime",
+        "genre": "['Sports']",
+        "score": 0.6819
+      },
+      {
+        "title": "Fullmetal Alchemist: Brotherhood",
+        "source": "Anime",
+        "genre": "['Action', 'Adventure', 'Drama', 'Fantasy']",
+        "score": 0.6816
+      },
+      {
+        "title": "Gate: Jieitai Kanochi nite, Kaku Tatakaeri",
+        "source": "Anime",
+        "genre": "['Action', 'Adventure', 'Fantasy']",
+        "score": 0.6801
+      },
+      {
+        "title": "Hand Maid May",
+        "source": "Anime",
+        "genre": "['Comedy', 'Ecchi', 'Romance', 'Sci-Fi']",
+        "score": 0.6801
+      },
+      {
+        "title": "Elf-ban Kakyuusei: Anata dake wo Mitsumete...",
+        "source": "Anime",
+        "genre": "['Drama', 'Romance']",
+        "score": 0.6798
+      },
+      {
+        "title": "Koe no Katachi",
+        "source": "Anime",
+        "genre": "['Award Winning', 'Drama']",
+        "score": 0.6795
+      },
+      {
+        "title": "Tanaka-kun wa Itsumo Kedaruge",
+        "source": "Anime",
+        "genre": "['Slice of Life']",
+        "score": 0.6783
+      },
+      {
+        "title": "Gokusen",
+        "source": "Anime",
+        "genre": "['Comedy', 'Drama', 'Slice of Life']",
+        "score": 0.6776
+      },
+      {
+        "title": "Schindler's List (1993)",
+        "source": "Movie",
+        "genre": "Drama, War",
+        "score": 0.6773
+      }
+    ]
+  },
+  "2": {
+    "seeds": [
+      "Hunter x Hunter (2011)",
+      "Usual Suspects, The (1995)",
+      "Kurau Phantom Memory"
+    ],
+    "recs": [
+      {
+        "title": "Hunter x Hunter (2011)",
+        "source": "Anime",
+        "genre": "['Action', 'Adventure', 'Fantasy']",
+        "score": 1.0
+      },
+      {
+        "title": "Kurau Phantom Memory",
+        "source": "Anime",
+        "genre": "['Action', 'Drama', 'Sci-Fi']",
+        "score": 0.9865
+      },
+      {
+        "title": "Hunter x Hunter",
+        "source": "Anime",
+        "genre": "['Action', 'Adventure', 'Fantasy']",
+        "score": 0.7119
+      },
+      {
+        "title": "Shokugeki no Souma",
+        "source": "Anime",
+        "genre": "['Ecchi', 'Gourmet']",
+        "score": 0.7071
+      },
+      {
+        "title": "Kimi no Na wa.",
+        "source": "Anime",
+        "genre": "['Award Winning', 'Drama', 'Supernatural']",
+        "score": 0.7016
+      },
+      {
+        "title": "Working!!! Lord of the Takanashi",
+        "source": "Anime",
+        "genre": "['Comedy', 'Romance']",
+        "score": 0.7013
+      },
+      {
+        "title": "Ie Naki Ko Remy",
+        "source": "Anime",
+        "genre": "['Adventure', 'Drama', 'Slice of Life']",
+        "score": 0.7001
+      },
+      {
+        "title": "One Punch Man",
+        "source": "Anime",
+        "genre": "['Action', 'Comedy']",
+        "score": 0.6997
+      },
+      {
+        "title": "Fullmetal Alchemist: Brotherhood",
+        "source": "Anime",
+        "genre": "['Action', 'Adventure', 'Drama', 'Fantasy']",
+        "score": 0.6996
+      },
+      {
+        "title": "Gintama'",
+        "source": "Anime",
+        "genre": "['Action', 'Comedy', 'Sci-Fi']",
+        "score": 0.6994
+      },
+      {
+        "title": "Gate Keepers",
+        "source": "Anime",
+        "genre": "['Action', 'Comedy', 'Fantasy', 'Sci-Fi']",
+        "score": 0.6959
+      },
+      {
+        "title": "Gin no Saji 2nd Season",
+        "source": "Anime",
+        "genre": "['Comedy']",
+        "score": 0.6935
+      },
+      {
+        "title": "Gintama': Enchousen",
+        "source": "Anime",
+        "genre": "['Action', 'Comedy', 'Sci-Fi']",
+        "score": 0.6935
+      },
+      {
+        "title": "Haikyuu!! Second Season",
+        "source": "Anime",
+        "genre": "['Sports']",
+        "score": 0.6931
+      },
+      {
+        "title": "Kuroko no Basket: Saikou no Present desu",
+        "source": "Anime",
+        "genre": "['Sports']",
+        "score": 0.6924
+      },
+      {
+        "title": "Haikyuu!! Karasuno Koukou vs. Shiratorizawa Gakuen Koukou",
+        "source": "Anime",
+        "genre": "['Sports']",
+        "score": 0.6923
+      },
+      {
+        "title": "Diamond no Ace: Second Season",
+        "source": "Anime",
+        "genre": "['Sports']",
+        "score": 0.6908
+      },
+      {
+        "title": "Noragami Aragoto",
+        "source": "Anime",
+        "genre": "['Action', 'Fantasy']",
+        "score": 0.6901
+      },
+      {
+        "title": "Koe no Katachi",
+        "source": "Anime",
+        "genre": "['Award Winning', 'Drama']",
+        "score": 0.6894
+      },
+      {
+        "title": "Usual Suspects, The (1995)",
+        "source": "Movie",
+        "genre": "Crime, Thriller",
+        "score": 0.6885
+      }
+    ]
+  },
+  "3": {
+    "seeds": [
+      "Gintama°",
+      "Fullmetal Alchemist: Brotherhood",
+      "Koe no Katachi"
+    ],
+    "recs": [
+      {
+        "title": "Gintama°",
+        "source": "Anime",
+        "genre": "['Action', 'Comedy', 'Sci-Fi']",
+        "score": 0.9964
+      },
+      {
+        "title": "Koe no Katachi",
+        "source": "Anime",
+        "genre": "['Award Winning', 'Drama']",
+        "score": 0.9921
+      },
+      {
+        "title": "Fullmetal Alchemist: Brotherhood",
+        "source": "Anime",
+        "genre": "['Action', 'Adventure', 'Drama', 'Fantasy']",
+        "score": 0.9907
+      },
+      {
+        "title": "Gintama': Enchousen",
+        "source": "Anime",
+        "genre": "['Action', 'Comedy', 'Sci-Fi']",
+        "score": 0.8189
+      },
+      {
+        "title": "Gintama Movie 2: Kanketsu-hen - Yorozuya yo Eien Nare",
+        "source": "Anime",
+        "genre": "['Action', 'Comedy', 'Sci-Fi']",
+        "score": 0.7955
+      },
+      {
+        "title": "Gintama",
+        "source": "Anime",
+        "genre": "['Action', 'Comedy', 'Sci-Fi']",
+        "score": 0.7927
+      },
+      {
+        "title": "Gintama'",
+        "source": "Anime",
+        "genre": "['Action', 'Comedy', 'Sci-Fi']",
+        "score": 0.7828
+      },
+      {
+        "title": "Gintama Movie 1: Shinyaku Benizakura-hen",
+        "source": "Anime",
+        "genre": "['Action', 'Comedy', 'Sci-Fi']",
+        "score": 0.7799
+      },
+      {
+        "title": "Code Geass: Hangyaku no Lelouch R2",
+        "source": "Anime",
+        "genre": "['Action', 'Award Winning', 'Drama', 'Sci-Fi']",
+        "score": 0.7383
+      },
+      {
+        "title": "Kimi no Na wa.",
+        "source": "Anime",
+        "genre": "['Award Winning', 'Drama', 'Supernatural']",
+        "score": 0.7305
+      },
+      {
+        "title": "Clannad: After Story",
+        "source": "Anime",
+        "genre": "['Drama', 'Romance', 'Supernatural']",
+        "score": 0.72
+      },
+      {
+        "title": "Steins;Gate",
+        "source": "Anime",
+        "genre": "['Drama', 'Sci-Fi', 'Suspense']",
+        "score": 0.7146
+      },
+      {
+        "title": "Hunter x Hunter (2011)",
+        "source": "Anime",
+        "genre": "['Action', 'Adventure', 'Fantasy']",
+        "score": 0.7112
+      },
+      {
+        "title": "Haikyuu!! Karasuno Koukou vs. Shiratorizawa Gakuen Koukou",
+        "source": "Anime",
+        "genre": "['Sports']",
+        "score": 0.7106
+      },
+      {
+        "title": "Code Geass: Hangyaku no Lelouch",
+        "source": "Anime",
+        "genre": "['Action', 'Award Winning', 'Drama', 'Sci-Fi']",
+        "score": 0.7079
+      },
+      {
+        "title": "Shigatsu wa Kimi no Uso",
+        "source": "Anime",
+        "genre": "['Drama', 'Romance']",
+        "score": 0.6954
+      },
+      {
+        "title": "I, Worst of All (Yo, la peor de todas) (1990)",
+        "source": "Movie",
+        "genre": "Drama",
+        "score": 0.6832
+      },
+      {
+        "title": "Rainbow: Nisha Rokubou no Shichinin",
+        "source": "Anime",
+        "genre": "['Drama', 'Suspense']",
+        "score": 0.6822
+      },
+      {
+        "title": "City of Angels (1998)",
+        "source": "Movie",
+        "genre": "Romance",
+        "score": 0.6785
+      },
+      {
+        "title": "Bakuman. 3rd Season",
+        "source": "Anime",
+        "genre": "['Comedy', 'Drama', 'Romance']",
+        "score": 0.6778
+      }
+    ]
+  },
+  "5": {
+    "seeds": [
+      "Hunter x Hunter (2011)",
+      "Gintama°",
+      "Gintama'"
+    ],
+    "recs": [
+      {
+        "title": "Gintama°",
+        "source": "Anime",
+        "genre": "['Action', 'Comedy', 'Sci-Fi']",
+        "score": 0.9841
+      },
+      {
+        "title": "Gintama'",
+        "source": "Anime",
+        "genre": "['Action', 'Comedy', 'Sci-Fi']",
+        "score": 0.9783
+      },
+      {
+        "title": "Hunter x Hunter (2011)",
+        "source": "Anime",
+        "genre": "['Action', 'Adventure', 'Fantasy']",
+        "score": 0.933
+      },
+      {
+        "title": "Gintama': Enchousen",
+        "source": "Anime",
+        "genre": "['Action', 'Comedy', 'Sci-Fi']",
+        "score": 0.8263
+      },
+      {
+        "title": "Gintama",
+        "source": "Anime",
+        "genre": "['Action', 'Comedy', 'Sci-Fi']",
+        "score": 0.8057
+      },
+      {
+        "title": "Gintama Movie 2: Kanketsu-hen - Yorozuya yo Eien Nare",
+        "source": "Anime",
+        "genre": "['Action', 'Comedy', 'Sci-Fi']",
+        "score": 0.7884
+      },
+      {
+        "title": "Gintama Movie 1: Shinyaku Benizakura-hen",
+        "source": "Anime",
+        "genre": "['Action', 'Comedy', 'Sci-Fi']",
+        "score": 0.7621
+      },
+      {
+        "title": "Gintama: Yorinuki Gintama-san on Theater 2D",
+        "source": "Anime",
+        "genre": "['Action', 'Comedy', 'Sci-Fi']",
+        "score": 0.7088
+      },
+      {
+        "title": "Fullmetal Alchemist: Brotherhood",
+        "source": "Anime",
+        "genre": "['Action', 'Adventure', 'Drama', 'Fantasy']",
+        "score": 0.6886
+      },
+      {
+        "title": "Koe no Katachi",
+        "source": "Anime",
+        "genre": "['Award Winning', 'Drama']",
+        "score": 0.6828
+      },
+      {
+        "title": "Ginga Eiyuu Densetsu",
+        "source": "Anime",
+        "genre": "['Drama', 'Sci-Fi']",
+        "score": 0.6824
+      },
+      {
+        "title": "Haikyuu!! Second Season",
+        "source": "Anime",
+        "genre": "['Sports']",
+        "score": 0.6674
+      },
+      {
+        "title": "Hajime no Ippo",
+        "source": "Anime",
+        "genre": "['Sports']",
+        "score": 0.6665
+      },
+      {
+        "title": "Space Jam (1996)",
+        "source": "Movie",
+        "genre": "Adventure, Animation, Children's, Comedy, Fantasy",
+        "score": 0.6637
+      },
+      {
+        "title": "Kimi no Na wa.",
+        "source": "Anime",
+        "genre": "['Award Winning', 'Drama', 'Supernatural']",
+        "score": 0.6625
+      },
+      {
+        "title": "City of Angels (1998)",
+        "source": "Movie",
+        "genre": "Romance",
+        "score": 0.6556
+      },
+      {
+        "title": "Mushishi Zoku Shou 2nd Season",
+        "source": "Anime",
+        "genre": "['Adventure', 'Mystery', 'Slice of Life', 'Supernatural']",
+        "score": 0.6543
+      },
+      {
+        "title": "Ookami Kodomo no Ame to Yuki",
+        "source": "Anime",
+        "genre": "['Award Winning', 'Fantasy', 'Slice of Life']",
+        "score": 0.6501
+      },
+      {
+        "title": "Steel (1997)",
+        "source": "Movie",
+        "genre": "Action",
+        "score": 0.65
+      },
+      {
+        "title": "Gyakkyou Burai Kaiji: Ultimate Survivor",
+        "source": "Anime",
+        "genre": "['Suspense']",
+        "score": 0.6475
+      }
+    ]
+  },
+  "7": {
+    "seeds": [
+      "Hunter x Hunter (2011)",
+      "Fullmetal Alchemist: Brotherhood",
+      "Gate Keepers"
+    ],
+    "recs": [
+      {
+        "title": "Hunter x Hunter (2011)",
+        "source": "Anime",
+        "genre": "['Action', 'Adventure', 'Fantasy']",
+        "score": 1.0
+      },
+      {
+        "title": "Fullmetal Alchemist: Brotherhood",
+        "source": "Anime",
+        "genre": "['Action', 'Adventure', 'Drama', 'Fantasy']",
+        "score": 0.996
+      },
+      {
+        "title": "Gate Keepers",
+        "source": "Anime",
+        "genre": "['Action', 'Comedy', 'Fantasy', 'Sci-Fi']",
+        "score": 0.9886
+      },
+      {
+        "title": "Kimi no Na wa.",
+        "source": "Anime",
+        "genre": "['Award Winning', 'Drama', 'Supernatural']",
+        "score": 0.7262
+      },
+      {
+        "title": "Koe no Katachi",
+        "source": "Anime",
+        "genre": "['Award Winning', 'Drama']",
+        "score": 0.7161
+      },
+      {
+        "title": "Steins;Gate",
+        "source": "Anime",
+        "genre": "['Drama', 'Sci-Fi', 'Suspense']",
+        "score": 0.7153
+      },
+      {
+        "title": "Gintama°",
+        "source": "Anime",
+        "genre": "['Action', 'Comedy', 'Sci-Fi']",
+        "score": 0.7031
+      },
+      {
+        "title": "Gintama Movie 2: Kanketsu-hen - Yorozuya yo Eien Nare",
+        "source": "Anime",
+        "genre": "['Action', 'Comedy', 'Sci-Fi']",
+        "score": 0.7015
+      },
+      {
+        "title": "Sen to Chihiro no Kamikakushi",
+        "source": "Anime",
+        "genre": "['Adventure', 'Award Winning', 'Supernatural']",
+        "score": 0.6991
+      },
+      {
+        "title": "Rainbow: Nisha Rokubou no Shichinin",
+        "source": "Anime",
+        "genre": "['Drama', 'Suspense']",
+        "score": 0.6957
+      },
+      {
+        "title": "Ultra Maniac",
+        "source": "Anime",
+        "genre": "['Comedy', 'Romance']",
+        "score": 0.6932
+      },
+      {
+        "title": "Haikyuu!! Karasuno Koukou vs. Shiratorizawa Gakuen Koukou",
+        "source": "Anime",
+        "genre": "['Sports']",
+        "score": 0.6925
+      },
+      {
+        "title": "Kurau Phantom Memory",
+        "source": "Anime",
+        "genre": "['Action', 'Drama', 'Sci-Fi']",
+        "score": 0.6924
+      },
+      {
+        "title": "Godfather, The (1972)",
+        "source": "Movie",
+        "genre": "Action, Crime, Drama",
+        "score": 0.6913
+      },
+      {
+        "title": "Gintama'",
+        "source": "Anime",
+        "genre": "['Action', 'Comedy', 'Sci-Fi']",
+        "score": 0.6895
+      },
+      {
+        "title": "Pokemon Movie 01: Mewtwo no Gyakushuu",
+        "source": "Anime",
+        "genre": "['Action', 'Adventure', 'Award Winning', 'Comedy', 'Drama', 'Fantasy']",
+        "score": 0.6893
+      },
+      {
+        "title": "Hajimari no Boukensha-tachi: Legend of Crystania",
+        "source": "Anime",
+        "genre": "['Action', 'Adventure', 'Fantasy', 'Supernatural']",
+        "score": 0.6892
+      },
+      {
+        "title": "Hand Maid May",
+        "source": "Anime",
+        "genre": "['Comedy', 'Ecchi', 'Romance', 'Sci-Fi']",
+        "score": 0.689
+      },
+      {
+        "title": "Gintama': Enchousen",
+        "source": "Anime",
+        "genre": "['Action', 'Comedy', 'Sci-Fi']",
+        "score": 0.6876
+      },
+      {
+        "title": "Shin Shirayuki-hime Densetsu Prétear",
+        "source": "Anime",
+        "genre": "['Comedy', 'Drama', 'Fantasy', 'Romance']",
+        "score": 0.6876
+      }
+    ]
+  },
+  "8": {
+    "seeds": [
+      "Schindler's List (1993)",
+      "Hand Maid May",
+      "Godfather, The (1972)"
+    ],
+    "recs": [
+      {
+        "title": "Hand Maid May",
+        "source": "Anime",
+        "genre": "['Comedy', 'Ecchi', 'Romance', 'Sci-Fi']",
+        "score": 1.0
+      },
+      {
+        "title": "Saiyuuki Gaiden: Kouga no Shou",
+        "source": "Anime",
+        "genre": "['Adventure', 'Drama', 'Fantasy']",
+        "score": 0.7012
+      },
+      {
+        "title": "Schindler's List (1993)",
+        "source": "Movie",
+        "genre": "Drama, War",
+        "score": 0.7
+      },
+      {
+        "title": "Gate Keepers",
+        "source": "Anime",
+        "genre": "['Action', 'Comedy', 'Fantasy', 'Sci-Fi']",
+        "score": 0.698
+      },
+      {
+        "title": "Hajimari no Boukensha-tachi: Legend of Crystania",
+        "source": "Anime",
+        "genre": "['Action', 'Adventure', 'Fantasy', 'Supernatural']",
+        "score": 0.6955
+      },
+      {
+        "title": "Godfather, The (1972)",
+        "source": "Movie",
+        "genre": "Action, Crime, Drama",
+        "score": 0.6952
+      },
+      {
+        "title": "Boku dake ga Inai Machi",
+        "source": "Anime",
+        "genre": "['Mystery', 'Supernatural', 'Suspense']",
+        "score": 0.6944
+      },
+      {
+        "title": "Ghost Hunt",
+        "source": "Anime",
+        "genre": "['Horror', 'Mystery', 'Supernatural']",
+        "score": 0.6941
+      },
+      {
+        "title": "Kimi no Na wa.",
+        "source": "Anime",
+        "genre": "['Award Winning', 'Drama', 'Supernatural']",
+        "score": 0.6923
+      },
+      {
+        "title": "Fullmetal Alchemist: Brotherhood",
+        "source": "Anime",
+        "genre": "['Action', 'Adventure', 'Drama', 'Fantasy']",
+        "score": 0.6915
+      },
+      {
+        "title": "Nageki no Kenkou Yuuryouji",
+        "source": "Anime",
+        "genre": "['Comedy', 'Girls Love', 'Hentai']",
+        "score": 0.6915
+      },
+      {
+        "title": "Shiritsu Araiso Koutougakkou Seitokai Shikkoubu",
+        "source": "Anime",
+        "genre": "['Boys Love', 'Comedy', 'Sports']",
+        "score": 0.6903
+      },
+      {
+        "title": "Hunter x Hunter (2011)",
+        "source": "Anime",
+        "genre": "['Action', 'Adventure', 'Fantasy']",
+        "score": 0.6903
+      },
+      {
+        "title": "One Punch Man",
+        "source": "Anime",
+        "genre": "['Action', 'Comedy']",
+        "score": 0.6892
+      },
+      {
+        "title": "Steins;Gate",
+        "source": "Anime",
+        "genre": "['Drama', 'Sci-Fi', 'Suspense']",
+        "score": 0.6882
+      },
+      {
+        "title": "Boot, Das (1981)",
+        "source": "Movie",
+        "genre": "Action, Drama, War",
+        "score": 0.6873
+      },
+      {
+        "title": "Kidou Shinsengumi Moeyo Ken TV",
+        "source": "Anime",
+        "genre": "['Adventure', 'Comedy', 'Fantasy']",
+        "score": 0.6872
+      },
+      {
+        "title": "Aa! Megami-sama! (TV)",
+        "source": "Anime",
+        "genre": "['Comedy', 'Romance', 'Supernatural']",
+        "score": 0.6869
+      },
+      {
+        "title": "Haja Taisei Dangaiou",
+        "source": "Anime",
+        "genre": "['Action', 'Adventure', 'Sci-Fi']",
+        "score": 0.6864
+      },
+      {
+        "title": "Ultra Maniac",
+        "source": "Anime",
+        "genre": "['Comedy', 'Romance']",
+        "score": 0.6861
+      }
+    ]
+  }
+}

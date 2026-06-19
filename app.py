@@ -1111,6 +1111,18 @@ def load_user_profiles() -> dict:
 
 user_profiles = load_user_profiles()
 
+
+@st.cache_data
+def load_precomputed_recs() -> dict:
+    try:
+        with open("model/precomputed_recs.json", "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+
+precomputed_recs = load_precomputed_recs()
+
 # Initialize watch later list
 if "watch_later" not in st.session_state:
     st.session_state["watch_later"] = []
@@ -1517,7 +1529,7 @@ with t2:
             top_genres = prof.get("top_genres", {}) if prof else {}
 
             if deep_model is not None and not item_map.empty:
-                # ── Hybrid: CF + CB ──────────────────────────────────────
+                # ── Hybrid: CF + CB (live model) ─────────────────────────
                 _urow = user_map[user_map["user_id"] == uid]["user_idx"]
                 if _urow.empty:
                     st.error(f"User {uid} not found in model.")
@@ -1544,12 +1556,19 @@ with t2:
                 cb_map  = dict(zip(combined_df["title"], cb))
                 cb_item = item_map["title"].map(cb_map).fillna(0.0).values
                 cb_norm = (cb_item - cb_item.min()) / (cb_item.max() - cb_item.min() + 1e-8)
-                scores    = alpha * cf_norm + (1.0 - alpha) * cb_norm
+                scores     = alpha * cf_norm + (1.0 - alpha) * cb_norm
                 top_titles = item_map.iloc[scores.argsort()[::-1][:20]].to_dict("records")
                 source_col = "source"
+
+            elif precomputed_recs.get(str(uid)):
+                # ── Precomputed NeuMF scores (cloud / no TF) ─────────────
+                user_data  = precomputed_recs[str(uid)]
+                seeds      = user_data.get("seeds", [])
+                top_titles = user_data.get("recs", [])
+                source_col = "source"
+
             else:
-                # ── Content-based fallback (no TF model) ─────────────────
-                st.caption("ℹ️ Running in content-based mode (TF model not available in cloud).")
+                # ── Pure content-based fallback ───────────────────────────
                 seeds   = history[:3] if history else []
                 cb      = np.zeros(len(combined_df))
                 matched = 0
@@ -1559,20 +1578,13 @@ with t2:
                         continue
                     cb     += cosine_similarity(tfidf_mat[hit.index[0]], tfidf_mat).flatten()
                     matched += 1
-                if not matched:
-                    # no history → use top-genres to seed
-                    genre_seed = list(top_genres.keys())[:2] if top_genres else []
-                    for t in combined_df[combined_df["description"].str.contains("|".join(genre_seed or ["Action"]), case=False, na=False)]["title"].head(3):
-                        hit = combined_df[combined_df["title"] == t]
-                        if not hit.empty:
-                            cb += cosine_similarity(tfidf_mat[hit.index[0]], tfidf_mat).flatten()
-                            matched += 1
                 if matched:
                     cb /= matched
-                seen = set(history)
+                seen     = set(history)
                 top_rows = sorted(
-                    [(cb[i], combined_df.iloc[i]) for i in range(len(combined_df)) if combined_df.iloc[i]["title"] not in seen],
-                    key=lambda x: -x[0]
+                    [(cb[i], combined_df.iloc[i]) for i in range(len(combined_df))
+                     if combined_df.iloc[i]["title"] not in seen],
+                    key=lambda x: -x[0],
                 )[:20]
                 top_titles = [{"title": r["title"], "type": r["type"]} for _, r in top_rows]
                 source_col = "type"
@@ -1587,7 +1599,7 @@ with t2:
                     top_genres,
                 )
                 items.append({
-                    "title": r["title"],
+                    "title":  r["title"],
                     "source": r.get(source_col, "Movie"),
                     "subtitle": expl,
                 })
