@@ -13,8 +13,12 @@ import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.neighbors import NearestNeighbors
-import tensorflow as tf
-from tensorflow.keras.models import load_model
+try:
+    import tensorflow as tf
+    from tensorflow.keras.models import load_model
+    _TF_AVAILABLE = True
+except ImportError:
+    _TF_AVAILABLE = False
 import json
 import urllib.parse
 import textwrap
@@ -250,13 +254,20 @@ _BADGE = {
 # ═══════════════════════════════════════════════════════════════════════════
 @st.cache_resource
 def load_deep_model():
+    if not _TF_AVAILABLE:
+        try:
+            user_map = pd.read_csv("model/user_map.csv")
+            item_map = pd.read_csv("model/item_map.csv")
+        except Exception:
+            user_map = pd.DataFrame()
+            item_map = pd.DataFrame()
+        return None, user_map, item_map
     try:
         model    = load_model("model/hybrid_model.h5", compile=False)
         user_map = pd.read_csv("model/user_map.csv")
         item_map = pd.read_csv("model/item_map.csv")
         return model, user_map, item_map
     except Exception as _e:
-        st.error(f"Model load failed: {_e}")
         return None, pd.DataFrame(), pd.DataFrame()
 
 
@@ -1502,51 +1513,85 @@ with t2:
 
     if get_recs_clicked:
         with st.spinner("Scoring all items…"):
-            _urow = user_map[user_map["user_id"] == uid]["user_idx"]
-            if _urow.empty:
-                st.error(f"User {uid} not found in model. Try refreshing.")
-                st.stop()
-            uidx = _urow.values[0]
-            item_ids = item_map["item_idx"].values
-            u_arr    = np.full(len(item_ids), uidx)
+            history = prof.get("history", []) if prof else []
+            top_genres = prof.get("top_genres", {}) if prof else {}
 
-            cf_raw  = deep_model.predict([u_arr, item_ids], batch_size=4096, verbose=0).flatten()
-            cf_norm = (cf_raw - cf_raw.min()) / (cf_raw.max() - cf_raw.min() + 1e-8)
+            if deep_model is not None and not item_map.empty:
+                # ── Hybrid: CF + CB ──────────────────────────────────────
+                _urow = user_map[user_map["user_id"] == uid]["user_idx"]
+                if _urow.empty:
+                    st.error(f"User {uid} not found in model.")
+                    st.stop()
+                uidx     = _urow.values[0]
+                item_ids = item_map["item_idx"].values
+                u_arr    = np.full(len(item_ids), uidx)
 
-            seeds   = item_map.iloc[cf_raw.argsort()[::-1][:3]]["title"].tolist()
-            cb      = np.zeros(len(combined_df))
-            matched = 0
-            for t in seeds:
-                hit = combined_df[combined_df["title"] == t]
-                if hit.empty:
-                    continue
-                cb     += cosine_similarity(tfidf_mat[hit.index[0]], tfidf_mat).flatten()
-                matched += 1
-            if matched:
-                cb /= matched
+                cf_raw  = deep_model.predict([u_arr, item_ids], batch_size=4096, verbose=0).flatten()
+                cf_norm = (cf_raw - cf_raw.min()) / (cf_raw.max() - cf_raw.min() + 1e-8)
 
-            cb_map  = dict(zip(combined_df["title"], cb))
-            cb_item = item_map["title"].map(cb_map).fillna(0.0).values
-            cb_norm = (cb_item - cb_item.min()) / (cb_item.max() - cb_item.min() + 1e-8)
+                seeds   = item_map.iloc[cf_raw.argsort()[::-1][:3]]["title"].tolist()
+                cb      = np.zeros(len(combined_df))
+                matched = 0
+                for t in seeds:
+                    hit = combined_df[combined_df["title"] == t]
+                    if hit.empty:
+                        continue
+                    cb     += cosine_similarity(tfidf_mat[hit.index[0]], tfidf_mat).flatten()
+                    matched += 1
+                if matched:
+                    cb /= matched
 
-            scores    = alpha * cf_norm + (1.0 - alpha) * cb_norm
-            top_items = item_map.iloc[scores.argsort()[::-1][:20]] # calculate up to 20 recommendations
-            
+                cb_map  = dict(zip(combined_df["title"], cb))
+                cb_item = item_map["title"].map(cb_map).fillna(0.0).values
+                cb_norm = (cb_item - cb_item.min()) / (cb_item.max() - cb_item.min() + 1e-8)
+                scores    = alpha * cf_norm + (1.0 - alpha) * cb_norm
+                top_titles = item_map.iloc[scores.argsort()[::-1][:20]].to_dict("records")
+                source_col = "source"
+            else:
+                # ── Content-based fallback (no TF model) ─────────────────
+                st.caption("ℹ️ Running in content-based mode (TF model not available in cloud).")
+                seeds   = history[:3] if history else []
+                cb      = np.zeros(len(combined_df))
+                matched = 0
+                for t in seeds:
+                    hit = combined_df[combined_df["title"] == t]
+                    if hit.empty:
+                        continue
+                    cb     += cosine_similarity(tfidf_mat[hit.index[0]], tfidf_mat).flatten()
+                    matched += 1
+                if not matched:
+                    # no history → use top-genres to seed
+                    genre_seed = list(top_genres.keys())[:2] if top_genres else []
+                    for t in combined_df[combined_df["description"].str.contains("|".join(genre_seed or ["Action"]), case=False, na=False)]["title"].head(3):
+                        hit = combined_df[combined_df["title"] == t]
+                        if not hit.empty:
+                            cb += cosine_similarity(tfidf_mat[hit.index[0]], tfidf_mat).flatten()
+                            matched += 1
+                if matched:
+                    cb /= matched
+                seen = set(history)
+                top_rows = sorted(
+                    [(cb[i], combined_df.iloc[i]) for i in range(len(combined_df)) if combined_df.iloc[i]["title"] not in seen],
+                    key=lambda x: -x[0]
+                )[:20]
+                top_titles = [{"title": r["title"], "type": r["type"]} for _, r in top_rows]
+                source_col = "type"
+
             items = []
-            for _, r in top_items.iterrows():
-                item_genre = r.get("genre") or ""
+            for r in top_titles:
+                item_genre = r.get("genre", "")
                 expl = explain_recommendation(
-                    r["title"], 
-                    item_genre, 
-                    prof.get("history", []) if prof else [], 
-                    prof.get("top_genres", {}) if prof else {}
+                    r["title"],
+                    item_genre,
+                    history,
+                    top_genres,
                 )
                 items.append({
-                    "title": r["title"], 
-                    "source": r.get("source", "Movie"),
-                    "subtitle": expl
+                    "title": r["title"],
+                    "source": r.get(source_col, "Movie"),
+                    "subtitle": expl,
                 })
-            
+
             st.session_state["t2_recs"] = items
             st.session_state["t2_show_count"] = rec_count
             st.session_state["t2_seeds"] = seeds
