@@ -1,29 +1,34 @@
+<div align="center">
+
 # 🎬 Movie & Anime Recommender
 
-> A production-ready hybrid recommendation engine that fuses **Neural Collaborative Filtering (NeuMF)**
-> with **TF-IDF content-based search** across Movies *and* Anime — wrapped in a polished,
-> animated Streamlit UI with dark/light theme, custom cursor, back navigation, and match-score
-> similarity cards.
+**A hybrid recommendation engine — Neural Collaborative Filtering × TF-IDF content search**
+**across Movies & Anime, with a polished animated Streamlit UI**
 
-[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-movie--anime--recommandation.streamlit.app-ff5530?style=for-the-badge)](https://movie-anime-recommandation.streamlit.app)
+<br>
 
-[![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)](https://python.org)
-[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.19-orange?logo=tensorflow&logoColor=white)](https://tensorflow.org)
-[![Streamlit](https://img.shields.io/badge/Streamlit-1.47-red?logo=streamlit&logoColor=white)](https://streamlit.io)
-[![Docker](https://img.shields.io/badge/Docker-ready-2496ED?logo=docker&logoColor=white)](https://docker.com)
-[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.7-F7931E?logo=scikitlearn&logoColor=white)](https://scikit-learn.org)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Live Demo](https://img.shields.io/badge/🚀%20LIVE%20DEMO-Click%20to%20Open%20App-ff5530?style=for-the-badge&logoColor=white)](https://movie-anime-recommandation.streamlit.app)
+
+<br>
+
+[![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.19-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)](https://tensorflow.org)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.47-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://streamlit.io)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.7-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)](https://scikit-learn.org)
+[![Docker](https://img.shields.io/badge/Docker-ready-2496ED?style=flat-square&logo=docker&logoColor=white)](https://docker.com)
+[![License: MIT](https://img.shields.io/badge/License-MIT-22c55e?style=flat-square)](LICENSE)
+
+</div>
 
 ---
 
 ## 📸 Demo
 
-**[🚀 Try the live app → movie-anime-recommandation.streamlit.app](https://movie-anime-recommandation.streamlit.app)**
+> **[🌐 movie-anime-recommandation.streamlit.app](https://movie-anime-recommandation.streamlit.app)**
 
-```
+```bash
 # Or run locally:
-streamlit run app.py
-# → open http://localhost:8501
+streamlit run app.py   # → http://localhost:8501
 ```
 
 ---
