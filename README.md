@@ -5,6 +5,8 @@
 > animated Streamlit UI with dark/light theme, custom cursor, back navigation, and match-score
 > similarity cards.
 
+[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-movie--anime--recommandation.streamlit.app-ff5530?style=for-the-badge)](https://movie-anime-recommandation.streamlit.app)
+
 [![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)](https://python.org)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.19-orange?logo=tensorflow&logoColor=white)](https://tensorflow.org)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.47-red?logo=streamlit&logoColor=white)](https://streamlit.io)
@@ -16,9 +18,10 @@
 
 ## 📸 Demo
 
-*Run locally or deploy via Docker — screenshots and a live demo GIF coming once deployed.*
+**[🚀 Try the live app → movie-anime-recommandation.streamlit.app](https://movie-anime-recommandation.streamlit.app)**
 
 ```
+# Or run locally:
 streamlit run app.py
 # → open http://localhost:8501
 ```
