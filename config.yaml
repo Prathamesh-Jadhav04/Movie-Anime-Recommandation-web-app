@@ -1,0 +1,26 @@
+# Model Configurations
+model:
+  mf_dim: 32
+  mlp_dim: 32
+  mlp_layers: [64, 32, 16]
+  reg: 1e-6
+  epochs: 20
+  batch_size: 512
+  val_split: 0.1
+
+# Paths for data and models
+paths:
+  combined_ratings: "data/combined_ratings.csv"
+  popular_items: "data/popular_items.csv"
+  anime_data: "data/anime.csv"
+  movie_data: "data/movies.csv"
+  model_output: "model/hybrid_model.h5"
+  user_map: "model/user_map.csv"
+  item_map: "model/item_map.csv"
+  metrics: "model/metrics.json"
+  learning_curves: "model/learning_curves.png"
+
+# Default UI presets
+ui:
+  default_alpha: 0.6
+  num_recommendations: 5

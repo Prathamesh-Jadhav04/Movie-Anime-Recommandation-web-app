@@ -1,0 +1,25 @@
+# Secrets
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Derived data (regenerate with: python preprocess.py)
+data/combined_ratings.csv
+
+# Unused / leftover artifacts
+model/user_preferences.csv
+
+# Claude Code internals
+.claude/
+CLAUDE.md
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Notebooks checkpoints
+notebooks/.ipynb_checkpoints/

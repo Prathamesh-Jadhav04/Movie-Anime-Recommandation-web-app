@@ -1,0 +1,1892 @@
+{
+  "1": {
+    "top_genres": {
+      "Drama": 107,
+      "Comedy": 93,
+      "Action": 79,
+      "Thriller": 52,
+      "Romance": 47
+    },
+    "total_rated": 276,
+    "avg_rating": 3.7,
+    "history": [
+      {
+        "title": "Highschool of the Dead",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Sword Art Online",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "High School DxD",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "High School DxD New",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Sleeper (1973)",
+        "rating": 5,
+        "source": "Movie"
+      },
+      {
+        "title": "Empire Strikes Back, The (1980)",
+        "rating": 5,
+        "source": "Movie"
+      },
+      {
+        "title": "Mighty Aphrodite (1995)",
+        "rating": 5,
+        "source": "Movie"
+      },
+      {
+        "title": "Truth About Cats & Dogs, The (1996)",
+        "rating": 5,
+        "source": "Movie"
+      },
+      {
+        "title": "Mr. Holland's Opus (1995)",
+        "rating": 5,
+        "source": "Movie"
+      },
+      {
+        "title": "Three Colors: Red (1994)",
+        "rating": 5,
+        "source": "Movie"
+      }
+    ]
+  },
+  "2": {
+    "top_genres": {
+      "Drama": 35,
+      "Comedy": 16,
+      "Romance": 16,
+      "Thriller": 12,
+      "Action": 10
+    },
+    "total_rated": 63,
+    "avg_rating": 3.81,
+    "history": [
+      {
+        "title": "Kuroko no Basket",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Shall We Dance? (1996)",
+        "rating": 5,
+        "source": "Movie"
+      },
+      {
+        "title": "Star Wars (1977)",
+        "rating": 5,
+        "source": "Movie"
+      },
+      {
+        "title": "Emma (1996)",
+        "rating": 5,
+        "source": "Movie"
+      },
+      {
+        "title": "Kolya (1996)",
+        "rating": 5,
+        "source": "Movie"
+      },
+      {
+        "title": "Titanic (1997)",
+        "rating": 5,
+        "source": "Movie"
+      },
+      {
+        "title": "As Good As It Gets (1997)",
+        "rating": 5,
+        "source": "Movie"
+      },
+      {
+        "title": "Sense and Sensibility (1995)",
+        "rating": 5,
+        "source": "Movie"
+      },
+      {
+        "title": "Secrets & Lies (1996)",
+        "rating": 5,
+        "source": "Movie"
+      },
+      {
+        "title": "Godfather, The (1972)",
+        "rating": 5,
+        "source": "Movie"
+      }
+    ]
+  },
+  "3": {
+    "top_genres": {
+      "Action": 76,
+      "Fantasy": 55,
+      "Adventure": 47,
+      "Drama": 45,
+      "Comedy": 38
+    },
+    "total_rated": 146,
+    "avg_rating": 5.8,
+    "history": [
+      {
+        "title": "Dragon Ball Z",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Sen to Chihiro no Kamikakushi",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Death Note",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Magi: The Labyrinth of Magic",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Kuroko no Basket 2nd Season",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Magi: The Kingdom of Magic",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Pokemon: The Origin",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Boku dake ga Inai Machi",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Shokugeki no Souma",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Kuroko no Basket 3rd Season",
+        "rating": 10,
+        "source": "Anime"
+      }
+    ]
+  },
+  "5": {
+    "top_genres": {
+      "Comedy": 351,
+      "Action": 223,
+      "Romance": 170,
+      "Fantasy": 129,
+      "Adventure": 122
+    },
+    "total_rated": 634,
+    "avg_rating": 3.95,
+    "history": [
+      {
+        "title": "Gintama Movie 2: Kanketsu-hen - Yorozuya yo Eien Nare",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Great Teacher Onizuka",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Steins;Gate Movie: Fuka Ryouiki no D\u00e9j\u00e0 vu",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Detroit Metal City",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Mob Psycho 100",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "JoJo no Kimyou na Bouken (TV)",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Stranger: Mukou Hadan",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Haikyuu!! Second Season",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Steins;Gate",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Gintama'",
+        "rating": 9,
+        "source": "Anime"
+      }
+    ]
+  },
+  "7": {
+    "top_genres": {
+      "Comedy": 273,
+      "Action": 231,
+      "Drama": 191,
+      "Romance": 185,
+      "Fantasy": 127
+    },
+    "total_rated": 746,
+    "avg_rating": 5.54,
+    "history": [
+      {
+        "title": "Neon Genesis Evangelion",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "No Game No Life",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Umineko no Naku Koro ni",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Hayate no Gotoku! Can't Take My Eyes Off You",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Pokemon: The Origin",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Hayate no Gotoku! Cuties",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Slam Dunk",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Clannad",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Neon Genesis Evangelion: The End of Evangelion",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Ranma \u00bd",
+        "rating": 9,
+        "source": "Anime"
+      }
+    ]
+  },
+  "8": {
+    "top_genres": {
+      "Action": 48,
+      "Adventure": 21,
+      "Drama": 20,
+      "Sci-Fi": 19,
+      "Thriller": 18
+    },
+    "total_rated": 71,
+    "avg_rating": 4.56,
+    "history": [
+      {
+        "title": "Fairy Tail",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Guilty Crown",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Bleach",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Kiss x Sis (TV)",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Sakura-sou no Pet na Kanojo",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Sword Art Online",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Shakugan no Shana",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Date A Live",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Hidan no Aria",
+        "rating": 8,
+        "source": "Anime"
+      },
+      {
+        "title": "Brave 10",
+        "rating": 7,
+        "source": "Anime"
+      }
+    ]
+  },
+  "9": {
+    "top_genres": {
+      "Drama": 11,
+      "Romance": 8,
+      "Comedy": 7,
+      "Thriller": 5,
+      "War": 5
+    },
+    "total_rated": 23,
+    "avg_rating": 4.43,
+    "history": [
+      {
+        "title": "Lucky\u2606Star",
+        "rating": 8,
+        "source": "Anime"
+      },
+      {
+        "title": "Face/Off (1997)",
+        "rating": 5,
+        "source": "Movie"
+      },
+      {
+        "title": "Dark City (1998)",
+        "rating": 5,
+        "source": "Movie"
+      },
+      {
+        "title": "Roman Holiday (1953)",
+        "rating": 5,
+        "source": "Movie"
+      },
+      {
+        "title": "English Patient, The (1996)",
+        "rating": 5,
+        "source": "Movie"
+      },
+      {
+        "title": "Shanghai Triad (Yao a yao yao dao waipo qiao) (1995)",
+        "rating": 5,
+        "source": "Movie"
+      },
+      {
+        "title": "Evil Dead II (1987)",
+        "rating": 5,
+        "source": "Movie"
+      },
+      {
+        "title": "Casablanca (1942)",
+        "rating": 5,
+        "source": "Movie"
+      },
+      {
+        "title": "Star Wars (1977)",
+        "rating": 5,
+        "source": "Movie"
+      },
+      {
+        "title": "Bridges of Madison County, The (1995)",
+        "rating": 5,
+        "source": "Movie"
+      }
+    ]
+  },
+  "10": {
+    "top_genres": {
+      "Drama": 82,
+      "Comedy": 47,
+      "Romance": 38,
+      "Thriller": 34,
+      "Action": 28
+    },
+    "total_rated": 187,
+    "avg_rating": 4.29,
+    "history": [
+      {
+        "title": "Fullmetal Alchemist: Brotherhood",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Sword Art Online",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Sword Art Online II",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Laura (1944)",
+        "rating": 5,
+        "source": "Movie"
+      },
+      {
+        "title": "Fargo (1996)",
+        "rating": 5,
+        "source": "Movie"
+      },
+      {
+        "title": "Sunset Blvd. (1950)",
+        "rating": 5,
+        "source": "Movie"
+      },
+      {
+        "title": "Secrets & Lies (1996)",
+        "rating": 5,
+        "source": "Movie"
+      },
+      {
+        "title": "Stand by Me (1986)",
+        "rating": 5,
+        "source": "Movie"
+      },
+      {
+        "title": "Lone Star (1996)",
+        "rating": 5,
+        "source": "Movie"
+      },
+      {
+        "title": "Bonnie and Clyde (1967)",
+        "rating": 5,
+        "source": "Movie"
+      }
+    ]
+  },
+  "11": {
+    "top_genres": {
+      "Drama": 136,
+      "Comedy": 112,
+      "Romance": 90,
+      "Action": 76,
+      "Adventure": 55
+    },
+    "total_rated": 291,
+    "avg_rating": 4.92,
+    "history": [
+      {
+        "title": "Hotaru no Haka",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Versailles no Bara",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Shoujo Kakumei Utena",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Muumindani no Suisei",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Sen to Chihiro no Kamikakushi",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Kurenai no Buta",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Psycho-Pass 2",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Clannad: After Story - Mou Hitotsu no Sekai, Kyou-hen",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Shingeki no Kyojin",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Tenkuu no Shiro Laputa",
+        "rating": 9,
+        "source": "Anime"
+      }
+    ]
+  },
+  "12": {
+    "top_genres": {
+      "Drama": 31,
+      "Action": 29,
+      "Comedy": 20,
+      "Sci-Fi": 16,
+      "Romance": 16
+    },
+    "total_rated": 73,
+    "avg_rating": 5.73,
+    "history": [
+      {
+        "title": "Death Note",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Steins;Gate",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Shingeki no Kyojin",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Code Geass: Hangyaku no Lelouch R2",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Code Geass: Hangyaku no Lelouch",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Nana",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Mirai Shounen Conan",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Dragon Ball Z",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Yuu\u2606Yuu\u2606Hakusho",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Sword Art Online",
+        "rating": 9,
+        "source": "Anime"
+      }
+    ]
+  },
+  "14": {
+    "top_genres": {
+      "Romance": 94,
+      "Comedy": 83,
+      "Drama": 71,
+      "Action": 56,
+      "Fantasy": 38
+    },
+    "total_rated": 221,
+    "avg_rating": 5.82,
+    "history": [
+      {
+        "title": "Kumo no Mukou, Yakusoku no Basho",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Byousoku 5 Centimeter",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Bakemonogatari",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Clannad: After Story",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Angel Beats!",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Steins;Gate",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Toaru Hikuushi e no Koiuta",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Log Horizon",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Cross Road",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Aldnoah.Zero",
+        "rating": 9,
+        "source": "Anime"
+      }
+    ]
+  },
+  "15": {
+    "top_genres": {
+      "Drama": 48,
+      "Comedy": 28,
+      "Romance": 25,
+      "Thriller": 25,
+      "Action": 23
+    },
+    "total_rated": 105,
+    "avg_rating": 2.93,
+    "history": [
+      {
+        "title": "Zombie-Loan",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Nixon (1995)",
+        "rating": 5,
+        "source": "Movie"
+      },
+      {
+        "title": "Cry, the Beloved Country (1995)",
+        "rating": 5,
+        "source": "Movie"
+      },
+      {
+        "title": "Red Corner (1997)",
+        "rating": 5,
+        "source": "Movie"
+      },
+      {
+        "title": "My Best Friend's Wedding (1997)",
+        "rating": 5,
+        "source": "Movie"
+      },
+      {
+        "title": "Brassed Off (1996)",
+        "rating": 5,
+        "source": "Movie"
+      },
+      {
+        "title": "Mrs. Brown (Her Majesty, Mrs. Brown) (1997)",
+        "rating": 5,
+        "source": "Movie"
+      },
+      {
+        "title": "Full Monty, The (1997)",
+        "rating": 5,
+        "source": "Movie"
+      },
+      {
+        "title": "FairyTale: A True Story (1997)",
+        "rating": 5,
+        "source": "Movie"
+      },
+      {
+        "title": "Rosewood (1997)",
+        "rating": 5,
+        "source": "Movie"
+      }
+    ]
+  },
+  "16": {
+    "top_genres": {
+      "Drama": 61,
+      "Comedy": 41,
+      "Thriller": 34,
+      "Action": 32,
+      "Romance": 31
+    },
+    "total_rated": 148,
+    "avg_rating": 4.53,
+    "history": [
+      {
+        "title": "Death Note",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Bokura ga Ita",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Clannad: After Story",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "D.N.Angel",
+        "rating": 8,
+        "source": "Anime"
+      },
+      {
+        "title": "Angel Beats!",
+        "rating": 8,
+        "source": "Anime"
+      },
+      {
+        "title": "Clannad",
+        "rating": 8,
+        "source": "Anime"
+      },
+      {
+        "title": "Black\u2605Rock Shooter (TV)",
+        "rating": 8,
+        "source": "Anime"
+      },
+      {
+        "title": "Bokusatsu Tenshi Dokuro-chan",
+        "rating": 5,
+        "source": "Anime"
+      },
+      {
+        "title": "Shawshank Redemption, The (1994)",
+        "rating": 5,
+        "source": "Movie"
+      },
+      {
+        "title": "Singin' in the Rain (1952)",
+        "rating": 5,
+        "source": "Movie"
+      }
+    ]
+  },
+  "17": {
+    "top_genres": {
+      "Comedy": 164,
+      "Action": 161,
+      "Drama": 114,
+      "Romance": 96,
+      "Supernatural": 88
+    },
+    "total_rated": 435,
+    "avg_rating": 6.65,
+    "history": [
+      {
+        "title": "Higurashi no Naku Koro ni Kai",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Tengen Toppa Gurren Lagann",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Ping Pong the Animation",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Death Note",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Monster",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Neon Genesis Evangelion: The End of Evangelion",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Fullmetal Alchemist: Brotherhood",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Clannad: After Story",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Fate/Zero 2nd Season",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Steins;Gate",
+        "rating": 10,
+        "source": "Anime"
+      }
+    ]
+  },
+  "18": {
+    "top_genres": {
+      "Drama": 148,
+      "Comedy": 107,
+      "Romance": 76,
+      "Action": 33,
+      "War": 27
+    },
+    "total_rated": 300,
+    "avg_rating": 4.28,
+    "history": [
+      {
+        "title": "Final Fantasy VII: Advent Children",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Howl no Ugoku Shiro",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Gokukoku no Brynhildr",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Ookami Kodomo no Ame to Yuki",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Final Fantasy VII: Advent Children Complete",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Rosario to Vampire Capu2",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Another",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Mirai Nikki (TV)",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Rosario to Vampire",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Tokyo Ghoul",
+        "rating": 10,
+        "source": "Anime"
+      }
+    ]
+  },
+  "19": {
+    "top_genres": {
+      "Drama": 23,
+      "Action": 14,
+      "Comedy": 14,
+      "Award Winning": 10,
+      "Sci-Fi": 10
+    },
+    "total_rated": 41,
+    "avg_rating": 6.02,
+    "history": [
+      {
+        "title": "Cowboy Bebop",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Hotaru no Haka",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Steins;Gate",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Colorful (Movie)",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Cowboy Bebop: Tengoku no Tobira",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Fullmetal Alchemist: Brotherhood",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Toki wo Kakeru Shoujo",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Sen to Chihiro no Kamikakushi",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Death Billiards",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Steins;Gate Movie: Fuka Ryouiki no D\u00e9j\u00e0 vu",
+        "rating": 9,
+        "source": "Anime"
+      }
+    ]
+  },
+  "20": {
+    "top_genres": {
+      "Action": 26,
+      "Comedy": 24,
+      "Drama": 16,
+      "Romance": 16,
+      "Adventure": 14
+    },
+    "total_rated": 67,
+    "avg_rating": 4.94,
+    "history": [
+      {
+        "title": "InuYasha",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Ouran Koukou Host Club",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Boku wa Imouto ni Koi wo Suru",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Mirai Nikki (TV)",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "K\u00e4mpfer f\u00fcr die Liebe",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "K-On!",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Kirepapa.",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "K\u00e4mpfer",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Koe de Oshigoto! The Animation",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "11eyes: Momoiro Genmutan",
+        "rating": 10,
+        "source": "Anime"
+      }
+    ]
+  },
+  "21": {
+    "top_genres": {
+      "Action": 106,
+      "Drama": 92,
+      "Comedy": 91,
+      "Horror": 77,
+      "Thriller": 66
+    },
+    "total_rated": 359,
+    "avg_rating": 5.15,
+    "history": [
+      {
+        "title": "Paprika",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Baccano!",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Zankyou no Terror",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Death Note",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Aku no Hana",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Hal",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Mahou Shoujo Madoka\u2605Magica",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Kill la Kill",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Neon Genesis Evangelion",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Mushishi",
+        "rating": 10,
+        "source": "Anime"
+      }
+    ]
+  },
+  "22": {
+    "top_genres": {
+      "Comedy": 74,
+      "Action": 67,
+      "Adventure": 36,
+      "Sci-Fi": 25,
+      "Thriller": 23
+    },
+    "total_rated": 132,
+    "avg_rating": 3.55,
+    "history": [
+      {
+        "title": "Mushishi",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Ouran Koukou Host Club",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Soul Eater",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Angel Beats!",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Supercop (1992)",
+        "rating": 5,
+        "source": "Movie"
+      },
+      {
+        "title": "Contact (1997)",
+        "rating": 5,
+        "source": "Movie"
+      },
+      {
+        "title": "Magnificent Seven, The (1954)",
+        "rating": 5,
+        "source": "Movie"
+      },
+      {
+        "title": "Princess Bride, The (1987)",
+        "rating": 5,
+        "source": "Movie"
+      },
+      {
+        "title": "Butch Cassidy and the Sundance Kid (1969)",
+        "rating": 5,
+        "source": "Movie"
+      },
+      {
+        "title": "Batman (1989)",
+        "rating": 5,
+        "source": "Movie"
+      }
+    ]
+  },
+  "23": {
+    "top_genres": {
+      "Comedy": 87,
+      "Action": 77,
+      "Adventure": 63,
+      "Drama": 60,
+      "Romance": 58
+    },
+    "total_rated": 223,
+    "avg_rating": 5.57,
+    "history": [
+      {
+        "title": "Cowboy Bebop: Tengoku no Tobira",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Rurouni Kenshin: Meiji Kenkaku Romantan",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Kidou Butouden G Gundam",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Great Teacher Onizuka",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Dragon Ball",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Yuu\u2606Yuu\u2606Hakusho",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Bakuten Shoot Beyblade",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Seihou Bukyou Outlaw Star",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Tokyo Mew Mew",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Bishoujo Senshi Sailor Moon S",
+        "rating": 10,
+        "source": "Anime"
+      }
+    ]
+  },
+  "24": {
+    "top_genres": {
+      "Drama": 50,
+      "Comedy": 45,
+      "Action": 32,
+      "Romance": 22,
+      "Sci-Fi": 16
+    },
+    "total_rated": 120,
+    "avg_rating": 6.02,
+    "history": [
+      {
+        "title": "Yuru Yuri\u266a\u266a",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Mahou Shoujo Madoka\u2605Magica Movie 1: Hajimari no Monogatari",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Mahou Shoujo Madoka\u2605Magica",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Azumanga Daiou The Animation",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Evangelion: 3.0 You Can (Not) Redo",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Hellsing",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Angel Beats!",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "K-On!",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Maria\u2020Holic",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Chuunibyou demo Koi ga Shitai! Kirameki no... Slapstick Noel",
+        "rating": 9,
+        "source": "Anime"
+      }
+    ]
+  },
+  "25": {
+    "top_genres": {
+      "Comedy": 46,
+      "Action": 34,
+      "Drama": 32,
+      "Sci-Fi": 28,
+      "Romance": 26
+    },
+    "total_rated": 116,
+    "avg_rating": 5.34,
+    "history": [
+      {
+        "title": "Code Geass: Hangyaku no Lelouch",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Clannad",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Code Geass: Hangyaku no Lelouch R2",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Clannad: After Story",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Guilty Crown",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Danshi Koukousei no Nichijou",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Yahari Ore no Seishun Love Comedy wa Machigatteiru.",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Death Note",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Blood Lad",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Sword Art Online",
+        "rating": 9,
+        "source": "Anime"
+      }
+    ]
+  },
+  "26": {
+    "top_genres": {
+      "Drama": 42,
+      "Action": 37,
+      "Comedy": 34,
+      "Thriller": 29,
+      "Romance": 21
+    },
+    "total_rated": 110,
+    "avg_rating": 3.12,
+    "history": [
+      {
+        "title": "Kami nomi zo Shiru Sekai",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Guilty Crown",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Akuma no Riddle",
+        "rating": 8,
+        "source": "Anime"
+      },
+      {
+        "title": "Fargo (1996)",
+        "rating": 5,
+        "source": "Movie"
+      },
+      {
+        "title": "Godfather, The (1972)",
+        "rating": 5,
+        "source": "Movie"
+      },
+      {
+        "title": "L.A. Confidential (1997)",
+        "rating": 5,
+        "source": "Movie"
+      },
+      {
+        "title": "Titanic (1997)",
+        "rating": 5,
+        "source": "Movie"
+      },
+      {
+        "title": "Dead Man Walking (1995)",
+        "rating": 4,
+        "source": "Movie"
+      },
+      {
+        "title": "Full Monty, The (1997)",
+        "rating": 4,
+        "source": "Movie"
+      },
+      {
+        "title": "Fly Away Home (1996)",
+        "rating": 4,
+        "source": "Movie"
+      }
+    ]
+  },
+  "27": {
+    "top_genres": {
+      "Action": 52,
+      "Comedy": 44,
+      "Romance": 43,
+      "Fantasy": 25,
+      "Drama": 24
+    },
+    "total_rated": 104,
+    "avg_rating": 7.29,
+    "history": [
+      {
+        "title": "Zero no Tsukaima: Futatsuki no Kishi",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Clannad: After Story",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Kami nomi zo Shiru Sekai: Megami-hen",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Ore no Imouto ga Konnani Kawaii Wake ga Nai. Specials",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Oda Nobuna no Yabou",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Sword Art Online",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Blood Lad",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Zero no Tsukaima F",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Kore wa Zombie desu ka?",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Beelzebub",
+        "rating": 9,
+        "source": "Anime"
+      }
+    ]
+  },
+  "28": {
+    "top_genres": {
+      "Action": 33,
+      "Thriller": 31,
+      "Sci-Fi": 27,
+      "Horror": 23,
+      "Drama": 22
+    },
+    "total_rated": 90,
+    "avg_rating": 4.42,
+    "history": [
+      {
+        "title": "Toradora!",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Yuu\u2606Yuu\u2606Hakusho",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai.",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Kaichou wa Maid-sama!",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Angel Beats!",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Naruto",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Elfen Lied",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Mirai Nikki",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Ao no Exorcist",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Mirai Nikki (TV)",
+        "rating": 9,
+        "source": "Anime"
+      }
+    ]
+  },
+  "29": {
+    "top_genres": {
+      "Action": 84,
+      "Comedy": 78,
+      "Fantasy": 62,
+      "Adventure": 57,
+      "Sci-Fi": 42
+    },
+    "total_rated": 163,
+    "avg_rating": 6.24,
+    "history": [
+      {
+        "title": "Sakigake!! Cromartie Koukou",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Dragon Ball",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Sen to Chihiro no Kamikakushi",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Digimon Adventure",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Interstella5555: The 5tory of The 5ecret 5tar 5ystem",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Yu\u2606Gi\u2606Oh! Duel Monsters",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Serial Experiments Lain",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Vampire Hunter D (2000)",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Arakawa Under the Bridge",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Steins;Gate Movie: Fuka Ryouiki no D\u00e9j\u00e0 vu",
+        "rating": 10,
+        "source": "Anime"
+      }
+    ]
+  },
+  "30": {
+    "top_genres": {
+      "Action": 41,
+      "Comedy": 31,
+      "Drama": 22,
+      "Romance": 22,
+      "Adventure": 18
+    },
+    "total_rated": 78,
+    "avg_rating": 5.73,
+    "history": [
+      {
+        "title": "Fullmetal Alchemist",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Elfen Lied",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Clannad: After Story",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Fullmetal Alchemist: Brotherhood",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Soul Eater",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Tokyo Ghoul",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Sen to Chihiro no Kamikakushi",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Tokyo Ghoul \u221aA",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Another",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Shingeki no Kyojin",
+        "rating": 9,
+        "source": "Anime"
+      }
+    ]
+  },
+  "31": {
+    "top_genres": {
+      "Action": 39,
+      "Comedy": 39,
+      "Romance": 37,
+      "Drama": 25,
+      "Sci-Fi": 25
+    },
+    "total_rated": 112,
+    "avg_rating": 6.55,
+    "history": [
+      {
+        "title": "Danshi Koukousei no Nichijou",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Sword Art Online",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "K-On!",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Kidou Senshi Gundam 00",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "K-On!!",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Baka to Test to Shoukanjuu Ni!",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Sengoku Basara Ni",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Baka to Test to Shoukanjuu",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Ikoku Meiro no Crois\u00e9e The Animation",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Hotarubi no Mori e",
+        "rating": 9,
+        "source": "Anime"
+      }
+    ]
+  },
+  "32": {
+    "top_genres": {
+      "Action": 22,
+      "Drama": 21,
+      "Comedy": 19,
+      "Adventure": 18,
+      "Sci-Fi": 15
+    },
+    "total_rated": 58,
+    "avg_rating": 4.91,
+    "history": [
+      {
+        "title": "Cowboy Bebop",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Trigun",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Fruits Basket",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "InuYasha",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Dragon Ball",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Wolf's Rain",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Tonari no Totoro",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Howl no Ugoku Shiro",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Blood+",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "FLCL",
+        "rating": 9,
+        "source": "Anime"
+      }
+    ]
+  },
+  "33": {
+    "top_genres": {
+      "Action": 23,
+      "Thriller": 15,
+      "Drama": 13,
+      "Adventure": 9,
+      "Fantasy": 9
+    },
+    "total_rated": 42,
+    "avg_rating": 5.81,
+    "history": [
+      {
+        "title": "Death Note",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Shingeki no Kyojin",
+        "rating": 10,
+        "source": "Anime"
+      },
+      {
+        "title": "Bleach",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Air Gear",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Code Geass: Hangyaku no Lelouch",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Code Geass: Hangyaku no Lelouch R2",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Re:Zero kara Hajimeru Isekai Seikatsu",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "One Piece Film: Z",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Bleach Movie 4: Jigoku-hen",
+        "rating": 9,
+        "source": "Anime"
+      },
+      {
+        "title": "Eyeshield 21",
+        "rating": 9,
+        "source": "Anime"
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "popularity_rmse": 0.1624,
+  "popularity_mae": 0.1252,
+  "ncf_rmse": 0.1305,
+  "ncf_mae": 0.0977,
+  "precision_at_10": 0.4231,
+  "ndcg_at_10": 0.5502,
+  "epochs_trained": 7,
+  "eval_users": 494
+}
